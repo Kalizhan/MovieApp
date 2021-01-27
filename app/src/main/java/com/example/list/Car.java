@@ -1,20 +1,20 @@
 package com.example.list;
 
-public class Food {
+public class Car {
 
-    int photo;
+    String photo;
     String title;
     String desc;
-    int price;
+    String country;
 
-    public Food(int photo, String title, String desc, int price){
+    public Car(String photo, String title, String desc, String country){
         this.photo = photo;
         this.title = title;
         this.desc = desc;
-        this.price = price;
+        this.country = country;
     }
 
-    public int getPhoto() {
+    public String getPhoto() {
         return photo;
     }
 
@@ -26,7 +26,7 @@ public class Food {
         return desc;
     }
 
-    public int getPrice() {
-        return price;
+    public String getCountry() {
+        return country;
     }
 }

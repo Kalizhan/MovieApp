@@ -2,7 +2,6 @@
 <LinearLayout
     android:orientation="horizontal"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,7 +11,8 @@
         android:id="@+id/photo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_baseline_adb_24"/>
+        android:src="@drawable/ic_baseline_adb_24"
+        android:layout_gravity="center"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             android:textSize="18dp"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:text="Pizza"/>
+            android:text="Car"/>
         <TextView
             android:id="@+id/desc"
             android:layout_width="wrap_content"
@@ -33,11 +33,11 @@
             android:textSize="16dp"
             android:text="Description"/>
         <TextView
-            android:id="@+id/price"
+            android:id="@+id/country"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16dp"
-            android:text="300 tg"/>
+            android:text="Country"/>
     </LinearLayout>
 
 </LinearLayout>
